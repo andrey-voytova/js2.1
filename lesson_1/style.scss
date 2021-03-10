@@ -1,0 +1,18 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    &__card{
+        box-shadow: 23px 31px 46px  dimgrey;
+    }  
+    &__text{
+        display: flex;
+        flex-direction: column;
+        background: lightgrey;
+        
+    }
+}
